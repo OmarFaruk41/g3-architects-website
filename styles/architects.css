@@ -135,18 +135,25 @@ main > section{
 }
 .fact-description{
     max-width: 540px;
+    margin-top: 24px;
+    margin-bottom: 100px;
 }
 
-/* responsive media query */
+/* responsive media query for small device */
 @media screen and (max-width: 576px){
     .navbar,
      .nav-links,
      .teams{
         flex-direction: column;
     }
-    .team-img-container{
+    .team-img-container , .facts-container{
         grid-template-columns: repeat(1,1fr);
     }
+    .facts-container{
+        justify-content: center;
+    }
+
+
     /* .our-features{
         margin-left: 20px;
     } */
