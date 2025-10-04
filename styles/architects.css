@@ -225,7 +225,6 @@ main > section{
         gap: 50px;
      }
      #experience-badge{
-   
     margin-left: 20px;
     margin-top: 20px;
 }
@@ -238,7 +237,7 @@ main > section{
 
 /* medium size device */
 @media screen and (min-width: 576px) and (max-width: 992px) {
-    .teams {
+    .teams, .features {
         flex-direction: column;
     }
     .facts-container {
@@ -250,5 +249,9 @@ main > section{
     .sponsors-companies{
         grid-template-columns: repeat(3,1fr);
         gap: 40px;
+    }
+    #experience-badge{
+    margin-left: 20px;
+    margin-top: 20px;
     }
 }
